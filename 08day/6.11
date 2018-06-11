@@ -1,0 +1,38 @@
+猜数字
+
+电脑随机出1-100之间数字
+最多猜10次
+每次用户输入都告诉用户的数字是大了还小了
+
+求0-100之间分别求偶数和奇数的和 
+打印出来
+
+
+作业：
+1、印象笔记13中第一题、第二题
+2、没有周报 抄代码15遍
+3、没有作业的 抄代码10遍
+4、晚上github邵广超
+5、晚上王学文分享
+
+
+set helplang=cn "中文帮助文档(前提是下了中文包)
+syntax enable
+syntax on " 自动语法高亮
+set number"显示行号
+colorscheme desert" 设定配色方案
+set guifont=Consolas:h12:cANSI"英文字体
+set guifontwide=SimSun-ExtB:h12:cGB2312
+set tabstop=4"表示Tab代表4个空格的宽度
+set expandtab"表示Tab自动转换成空格
+set autoindent"表示换行后自动缩进
+set autoread " 当文件在外部请输入1:石头2:剪刀3:布1
+电脑赢了
+被修改时，自动重新读取
+set history=400"vim记住的历史操作的数量，默认的是20
+set nocompatible"使用vim自己的键盘模式,而不是兼容vi的模式
+set confirm"处理未保存或者只读文件时,给出提示
+set smartindent"智能对齐
+set shiftwidth=4
+set paste
+set encoding=utf-8
