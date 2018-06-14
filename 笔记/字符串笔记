@@ -1,0 +1,19 @@
+计算最小单位 字节
+1字节 = 8个位
+
+切割
+split()
+
+以什么开头
+startswith()
+
+以什么结尾
+endswith()
+
+替换
+replace()
+
+
+查找
+find()
+index()

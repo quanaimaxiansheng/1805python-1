@@ -1,0 +1,50 @@
+列表常用方法----list
+
+添加：
+append(data)
+把添加的值直接当做一个元素插入列表当中
+
+extend(data)
+会把添加的值拆开成元素，分别插入到列表当中
+
+insert(position,data)
+position 索引
+
+
+删除：
+
+del list[position]
+list.pop() 默认删除末尾
+list.pop(position) 删除指定索引的值
+list.remove(data) 删除指定的值
+
+查：
+x = list[position]
+
+改：
+list[position] = xxx
+
+升序
+list.sort()
+list.sort(reverse = False)
+
+降序
+list.sort(reverse = True)
+
+倒序
+list[::-1]
+list.reverse()
+
+取长度
+len(list)
+
+统计元素个数
+list.count()
+
+
+
+
+
+
+
+  

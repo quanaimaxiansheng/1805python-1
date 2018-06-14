@@ -1,0 +1,3 @@
+TypeError: count() takes exactly one argument (0 given)
+
+我需要一个参数，你就给我了0个
