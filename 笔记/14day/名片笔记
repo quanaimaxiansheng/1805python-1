@@ -1,0 +1,29 @@
+
+list = [{"name":"laowang","job":"cto"},{"name":"zhaosi","job":"ceo"}]
+
+
+
+
+name = "zhaosi"
+
+for  i  in list:
+	if name == i["name"]:
+
+
+
+
+功能问题：
+
+打印名片
+名片    电话     职位    
+xxx		xxx		xxx
+xxx		xxx		xxx
+
+Bug问题:
+1、手机位数限制
+2、名字长度限制
+3、职位长度限制
+4、功能判断是否数字 是否为空
+
+
+
