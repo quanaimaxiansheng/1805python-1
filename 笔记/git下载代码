@@ -1,0 +1,11 @@
+git clone git@github.com:xiaoyuanandroid/1805python.git
+git pull
+
+.git在哪就在哪执行git命令
+
+git status
+git add .
+git commit -m "desc"
+git push origin 
+
+

@@ -1,0 +1,119 @@
+一、列表(支持多种数据类型) 有序的
+
+增加：
+append(arg) arg:要添加的数据,添加到末尾
+insert(position,arg)
+position:索引
+arg:要添加的数据
+extend(arg)
+arg:要添加的数据，添加到末尾
+跟append不同的地方是：
+extend会把添加的数据拆成多个元素依次放到末尾
+append会把添加的数据当成一个元素添加的到末尾
+
+查找：
+xxx = list[postion] 根据索引查找内容
+
+position = list.index(内容)
+使用这个方法之前，先判断你要查的内容在不在
+根据内容查找索引
+
+遍历查找
+for x in list:
+	if 内容 == x:
+		print("找到了")
+
+改：
+改的前提就是查，必须要找到索引
+
+list[position] = 新的值
+
+查找索引
+for position,x in enumerate(list):
+	if 内容 == x:
+		print(position)
+		break
+
+删：
+
+根据索引删除
+list.pop() 最后一个
+list.pop(position) 删除索引的上值
+
+根据内容删除
+list.remove(内容)
+
+排序：
+list.sort() 升序
+list.sort(reverse = True) 降序
+list.reverse() 倒序
+
+--------------------------------------
+
+元组
+tuple = ()
+元组一旦定义 不可更改
+
+--------------------------------------
+
+字典 无序
+没有索引的概念
+key不能重复的
+value可以重复
+
+列表不能当做键
+
+遇到键值对就需要用到字典
+dict = {}
+
+增：
+dict[key] = value 
+如果key存在，就是修改
+如果key不存在，添加
+
+dict.setdefault(key,value)
+如果key存在，不修改
+如果key不存在，添加
+
+查：
+只能根据key来查找内容
+
+value = dict[key] 
+key不存在的时候报错
+
+dict.get(key)
+key不存在的时候不报错
+
+改：
+根据key来改内容
+dict[key] = value 
+
+删：
+dict.pop(key) 删除指定key对应的键值对
+dict.popitem() 随机删除键值对
+
+---------------------------------
+
+
+数据多
+
+list = [{},{},{}]
+
+
+
+list = [[],[],[]]
+list = [(),(),()]
+dic = {key:[],key:[]}
+dic = {key:{},key:{}}
+dic = {key:(),key:()}
+
+
+
+
+
+
+
+
+
+
+
