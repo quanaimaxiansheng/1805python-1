@@ -27,3 +27,14 @@ Bug问题:
 
 
 
+
+sudo apt install python-pip
+sudo apt install python-pip3
+
+
+pip3 install itchat
+pip3 install requests
+pip3 install turtle
+
+
+
